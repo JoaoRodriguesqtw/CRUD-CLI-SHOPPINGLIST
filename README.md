@@ -36,7 +36,7 @@ O foco principal deste script é puramente **educacional**, demonstrando conceit
 ## 🔧 Como Executar
 
 ### Pré-requisitos
-* Ter o **Python 3.14** instalado em sua máquina.
+* Ter o **Python 3.10+** instalado em sua máquina.
 
 ### Passo a Passo
 1. Clone este repositório ou baixe o arquivo `ShoppingList.py`.
