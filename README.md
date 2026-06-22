@@ -1,4 +1,3 @@
-Abaixo você pode visualizar o conteúdo completo em formato de texto para copiar e colar diretamente no seu repositório se preferir:
 
 ```markdown
 # 🛒 Terminal Shopping List CRUD
