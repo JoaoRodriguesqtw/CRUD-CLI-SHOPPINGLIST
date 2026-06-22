@@ -1,6 +1,6 @@
-ls_lista_compras = []
-ls_quantidades = []
-lf_lista_valores = []
+ls_lista_compras = []   #lista[Index] = item
+ls_quantidades = []     #quantidades[Index] = qtd do item
+lf_lista_valores = []   #valores[Index] = preço do item
 
 
 while True:
