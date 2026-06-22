@@ -28,7 +28,7 @@ while True:
             lf_valores = float(input("digite o valor de cada unidade do item que voce quer adicionar:  "))
             if  ls_item_quantidade <= 0 or lf_valores <=0:
                 print()
-                print("error: quantidade invalida de itens")
+                print("Erro: quantidade invalida de itens")
                 print()
             elif ls_item in ls_lista_compras: # Impede duplicatas: mesmo nome não pode aparecer duas vezes
                 print("Erro: item duplicado")
@@ -75,7 +75,7 @@ while True:
     #OPÇÃO 3: REMOVER
     elif li_opcao_escolhida == 3:
         try:
-            ls_item = input("digite o item a ser removido: ").lower().strip()
+            ls_item = input("Digite o item a ser removido: ").lower().strip()
             index = ls_lista_compras.index(ls_item) # lança ValueError se não achar
 
             # Remove o mesmo índice nas três listas para mantê-las sincronizadas
@@ -90,7 +90,7 @@ while True:
     elif li_opcao_escolhida == 4:
         if (len(ls_lista_compras)) <= 0:
             print()
-            print("não há itens na lista")
+            print("Não há itens na lista")
             print()
         else:
             print()
@@ -100,7 +100,7 @@ while True:
                 lf_valor_compras = lf_lista_valores[x]
 
                 # .capitalize() exibe a primeira letra maiúscula na saída
-                ## :.2f formata o float com 2 casas decimais
+                ## :.2f para formatar o float com 2 casas decimais e se ter uma visualização mais facil
                 print(f"-- {ls_item.capitalize()}: {li_quantidade} unidades x R$ {lf_valor_compras:.2f} = R$ {lf_valor_compras * li_quantidade:.2f}")
             print()
 
@@ -109,7 +109,7 @@ while True:
         lf_valor_total = 0
         if (len(ls_lista_compras)) <= 0:
             print()
-            print("não há itens na lista")
+            print("Não há itens na lista")
             print()
         else:
 
@@ -121,13 +121,13 @@ while True:
                 lf_subtotal = (lf_valor_compras)*(li_quantidade)
                 lf_valor_total +=  lf_subtotal # acumula no total geral
 
-            print(f"o valor total é de: {(lf_valor_total):.2f}") 
+            print(f"O valor total é de: {(lf_valor_total):.2f}") 
         
         
     #OPÇÃO 6: SAIR
     elif li_opcao_escolhida == 6:
-        print("saindo da lista")
+        print("Saindo da lista")
         break # encerra o loop while True
 
     else:
-        print("erro: opção não conhecida")
+        print("Erro: opção não conhecida")
