@@ -1,4 +1,5 @@
-
+Abaixo você pode visualizar a documentação do projeto:
+ preferir
 ```markdown
 # 🛒 Terminal Shopping List CRUD
 
