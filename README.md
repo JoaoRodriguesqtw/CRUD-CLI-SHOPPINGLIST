@@ -1,6 +1,6 @@
 Abaixo você pode visualizar a documentação do projeto:
 ```markdown
-# 🛒 Terminal Shopping List CRUD
+# Terminal Shopping List CRUD
 
 Este projeto é uma aplicação de linha de comando (CLI) desenvolvida em **Python** que funciona como um sistema completo de **CRUD** (Create, Read, Update, Delete) para gerenciamento de uma lista de compras. 
 
@@ -8,7 +8,7 @@ O foco principal deste script é puramente **educacional**, demonstrando conceit
 
 ---
 
-## 💡 Características do Projeto
+## Características do Projeto
 
 * **CRUD Completo via Terminal:** Permite adicionar, visualizar, editar e remover itens interativamente.
 * **Armazenamento Dinâmico em Memória:** Utiliza o conceito de **listas paralelas** (`ls_lista_compras`, `ls_quantidades`, `lf_lista_valores`) sincronizadas através de índices correspondentes.
@@ -21,7 +21,7 @@ O foco principal deste script é puramente **educacional**, demonstrando conceit
 
 ---
 
-## 🛠️ Funcionalidades
+## Funcionalidades
 
 1. **Adicionar Item (Create):** Recebe o nome do produto, quantidade de unidades e o valor unitário.
 2. **Editar Item (Update):** Permite alterar o nome, quantidade e preço de um item existente de maneira segura.
@@ -32,7 +32,7 @@ O foco principal deste script é puramente **educacional**, demonstrando conceit
 
 ---
 
-## 🔧 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 * Ter o **Python 3.10+** instalado em sua máquina.
