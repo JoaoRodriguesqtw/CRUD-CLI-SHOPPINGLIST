@@ -1,6 +1,6 @@
 Abaixo você pode visualizar a documentação do projeto:
 ```markdown
-```Terminal Shopping List CRUD
+```Terminal Shopping List CRUD```
 
 Este projeto é uma aplicação de linha de comando (CLI) desenvolvida em **Python** que funciona como um sistema completo de **CRUD** (Create, Read, Update, Delete) para gerenciamento de uma lista de compras. 
 
