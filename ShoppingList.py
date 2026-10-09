@@ -5,11 +5,11 @@ lf_lista_valores = []   #valores[Index] = preço do item
 
 while True:
     print()
-    print("--Digite 1 para adicionar itens à lista--")
-    print("--Digite 2 para editar um item da lista--")   
-    print("--Digite 3 para remover itens da lista--")
-    print("--Digite 4 para visualizar a lista--")
-    print("--Digite 5 para visualizar o valor total--")
+    print("--Digite 1 para adicionar itens à lista--") #post
+    print("--Digite 2 para editar um item da lista--")   #patch
+    print("--Digite 3 para remover itens da lista--")    #delet
+    print("--Digite 4 para visualizar a lista--")  #get
+    print("--Digite 5 para visualizar o valor total--") #get
     print("--Digite 6 para fechar a lista--")
     print()
     # Trata entrada inválida (ex: letras no lugar de número)
